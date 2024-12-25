@@ -16,6 +16,7 @@ body {
     /* padding:5%; */
     padding-left:5%;
     padding-right:5%;
+    font-family:"Inter", sans-serif;
 
 }
 
@@ -34,7 +35,6 @@ body {
     background-color:aqua;
     padding: 16px 16px;
     transition: all 1s ease;
-    font-family:"Inter", sans-serif;
     text-decoration:none;
 
 
@@ -45,7 +45,6 @@ body {
     color:black;
 }
 #name {
-    font-family:"Inter", sans-serif;
     font-size:3vw;
     text-align:center;
     display:inline;
@@ -63,7 +62,6 @@ body {
     display: flex;            
     align-items: center;      /* Center text vertically */
     justify-content: center;  /* Center text horizontally */
-    font-family: 'Courier New', Courier, monospace;
     font-size: 2vw;      
     float:right;
     margin-top:-3%;  /*fix this, get rid of neg*/   
@@ -73,7 +71,6 @@ body {
     display:flex;
     gap: 3%;
     justify-content: center;
-    font-family:'Courier New', Courier, monospace;
     font-weight:100;
     font-size:1vw;
 
@@ -86,7 +83,6 @@ body {
     background-color:blueviolet;
     display:flex;
     align-items: center;
-    font-family:'Courier New', Courier, monospace;
     font-size:1vw;
     
 }
