@@ -307,7 +307,7 @@ body {
     gap:2rem;
 }
 .box {
-    padding:2%;
+    padding:0.5% 2%;
     height:100%;
     min-height:fit-content;
     background-color: #D68F3E;
@@ -323,11 +323,12 @@ body {
     background-color: brown;
     width: 500px;
     height: 200px;
+    margin:auto;
   }
 .one {
     justify-content:flex-start;
     width:auto;
-    line-height:2rem;
+    line-height:1.5rem;
 
 }
 h5 {
@@ -364,3 +365,14 @@ h2 {
 }
 
 
+h6 {
+    padding: 0.5em 1em;
+    width:fit-content;
+    font-size:16px;
+    position:relative;
+    border: none;
+    background-color: #7dd3b1;
+    border-radius:2rem;
+   
+    color:#280003;
+}
