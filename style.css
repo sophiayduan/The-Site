@@ -335,6 +335,10 @@ body {
     line-height:1.5rem;
 
 }
+
+.aproject p{
+    color:#280003;
+}
 h5 {
     font-size:250%;
     margin:0%;
