@@ -33,7 +33,7 @@ body {
 #joe {
     width:1rem;
     height:1rem;
-    background-color:#280003;
+    background-color:#ff2b39;
     display:inline;
     border-radius:100%;
 }
@@ -61,11 +61,16 @@ body {
 
 .navbar a:hover {
 
-    color:#7dd3b0df;
+    color:#f7b66c;
 }
+
+nav:has(a:hover) :not(:hover) {
+    opacity: 0.3;
+}
+
 .navbar a.active {
-    color: #D68F3E; /* Active color */
-    font-weight: bold;
+    color:#ff2b39;
+    /* font-weight: bold; */
   }
   
   /* Add a circle to the left of the active link */
@@ -83,10 +88,10 @@ body {
   } */
 #select {
     display:flexbox;
-    color:#D68F3E;
+    color:#f7b66c;
 }
 #name {
-    font-size:3vw;
+    font-size:3rem;
     text-align:center;
     margin-top:-4%;
     /* color:#280003; */
@@ -100,9 +105,9 @@ body {
 
 .music {
     width: 10vw;  
-    color:#EEE0CB;            
+    color:#ebeae6;
     height: 3rem;              
-    border: 4px solid #D68F3E;
+    border: 4px solid #f7b66c;
     display: flex;            
     align-items: center;
     justify-content: center;
@@ -133,12 +138,12 @@ body {
 
 .rec {
     width:100%;
-    /* background-color:rgba(138, 6, 6, 0.575); */
+    background-color:rgba(138, 6, 6, 0.575);
     display:flex;
     justify-content: center; 
     align-items: center;
     font-size:1.5rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     line-height: 1.75;
     /* border: 0.5rem solid #280003; */
     /* border-image: url('backchar.png') 5 round; note: somehow add a custom "comicbook" style border*/
@@ -149,6 +154,13 @@ body {
 .abouthome {
     height:20vh;
     padding-bottom:10vh;
+    width:100%;
+    /* background-color:rgba(138, 6, 6, 0.575); */
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+    line-height: 1.75;
 }
 .projectshome {
     display:flex;
@@ -164,7 +176,7 @@ body {
 .project {
     background-color:#7dd3b1;
     height:100%;
-    width:31%;
+    width:30%;
     /* border: 0.5rem solid #280003; */
     transition: all 0.3s ease; /* Smooth transition */
     overflow: hidden; /* Prevent layout issues */
@@ -333,9 +345,10 @@ body {
 }
 .box {
     padding:0.5% 2%;
-    height:100%;
+    height:20rem;
     min-height:fit-content;
-    background-color: #D68F3E;
+    /* background-color: #D68F3E; */
+    border:3px solid #9c2a2a;
     display:flex;
     justify-content: space-between;   
     gap:2vw; 
@@ -345,15 +358,16 @@ body {
 .box img {
     right: 0;
     align-self: flex-end;
-    background-color: brown;
+    background-color: #9c2a2a;
     width: 500px;
-    height: 200px;
+    height: 250px;
+    padding:2% 0%;
     margin:auto;
   }
 .one {
     justify-content:flex-start;
-    padding-bottom:1%;
-    width:auto;
+    padding:2% 1.5%;
+    width:90%;
     line-height:1.5rem;
 
 }
@@ -379,6 +393,7 @@ body {
 h5 {
     font-size:250%;
     margin:0%;
+    color:#ebeae6;
     margin-top:5%;
 }
 
@@ -387,7 +402,8 @@ h5 {
     /* color:#280003; */
 }
 p {
-    color:#EEE0CB;
+    color:#ebeae6;
+    font-size:1.2rem;
 
 }
 
@@ -397,7 +413,10 @@ p {
 
 
 
-
+h3 {
+    font-size:2rem;
+    color:#9c2a2a;
+}
 
 h4 {
     font-size:1.75vw;
@@ -442,7 +461,7 @@ h7:active {
 }
 
 #preloader {
-    background:#000 url(backchar.png) no-repeat center center;
+    background:#000 url(preloader.gif) no-repeat center center;
     background-size:10%;
     height:100vh;
     width:100%;
@@ -451,4 +470,21 @@ h7:active {
     margin-top: -2%;
     margin-left: -12%;
 
+}
+::-webkit-scrollbar {
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color:#ebeae6;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#ff2b39;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#dc1717;
 }
