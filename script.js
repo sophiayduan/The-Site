@@ -1,18 +1,24 @@
-// Select the audio element and the button
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+
+})
+
 const audio = document.getElementById('backgroundMusic');
-const toggleButton = document.getElementById('music');
+const musicStatus = document.getElementById('musicStatus');
+const circle = document.getElementById('circle');
+let isPlaying = true; 
 
-// Initially set the button text
-let isPlaying = true; // Music starts playing
+musicStatus.addEventListener('click', () => {
+if (isPlaying) {
+    audio.pause(); 
+    musicStatus.textContent = "ON"; 
 
-// Function to toggle music on and off
-toggleButton.addEventListener('click', () => {
-    if (isPlaying) {
-        audio.pause(); // Pause the music
-        toggleButton.textContent = "Play Music"; // Change button text
-    } else {
-        audio.play(); // Play the music
-        toggleButton.textContent = "Pause Music"; // Change button text
-    }
-    isPlaying = !isPlaying; // Toggle the state
+} else {
+    audio.play(); 
+    musicStatus.textContent = "OFF"; 
+    circle.style.backgroundColor = 'green';
+
+}
+isPlaying = !isPlaying; // Toggle the state
 });

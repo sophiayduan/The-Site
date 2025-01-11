@@ -3,112 +3,95 @@
     <head>
         <title>Sophia Duan</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="script.js">
+        <script src="script.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+    <div id="preloader"></div>
 
     </head>
 
 <body>
-    <div id="preloader"></div>
-
-    <div class="everything">
-        <!-- Audio element, replace with your music URL -->
-        <audio id="backgroundMusic" autoplay loop>
-            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
-            <div class="content">
-                    <div class="homepage">
-                        <nav>
-                            <div class="navbar">
-                            <div class="bob">
-                                <div id="joe"></div>
-                                <a href="index.html" class="nav-link active">HOME</a>
-                            </div>
-                            <p5>/</p5>
-                            <a href="projects.html" class="nav-link">PROJECTS</a>
-                            <p5>/</p5>
-                            <a href="contact.html" class="nav-link">CONTACT</a>
-                            </div>
-                        </nav>
-                        <div id="name">
-                            <h1>SOPHIA DUAN</h1>
-                        </div>
-                        <div class="top">
-                            <div class="socials">
-                                <div id="cartoonface"></div>
-                                <div id="github"></div>
-                                <div id="email"></div>
-                            </div>
-                            <div class="music">
-                                <p style="font-weight: 300;">Music ON </p>
-                                <div id="circle"></div>                        
-                            </div>
-                        </div>
-                    </div>
-                    <div class="abouthome">
-                        <div class="rec" style="height:25vh;">
-                                <p style="margin-right:10vw; padding: 5vh;color:#EEE0CB;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in mattis diam. Etiam scelerisque vehicula orci, et aliquam tellus suscipit eget. Sed ac enim accumsan, pretium metus sit amet, egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium felis sit amet est tempor.
-
-                                </p>
-                                <!-- maybe add a picture/drawing as a photo -->
-                        </div>
-                    </div>
-                    <section class="projectshome">
-                        <article class="project">
-                            <h2>Coming Soon</h2>
-                            <!-- <p style="color:#D31313;">this is project 1</p> -->
-                        
-                        </article>
-                        <article class="project">
-                            <h2>Coming Soon</h2>
-                            <!-- <p>this is project 2</p> -->
-                        </article>
-                        <article class="project">
-                            <h2>In Progress!</h2>
-                            <!-- <p>this is project 3</p> -->
-                        </article>
-                    </section>
-                
-                    <div class="end">
-                        <div id="thanks">
-                            <p7>THANK YOU FOR CHECKING OUT MY WEBSITE. THIS SITE WAS INSPIRED BY COMIC BOOKS AND @SAMLIU 'S WEBSITE.</p7>
-                        </div>
-                        <div id="digitalcontent">
-                            <div id="blackrec"></div>
-                            <div id="whiterec">
-                                <p7>DIGITAL</p7>
-                                <p7>CONTENT</p7>
-                            </div>
-                            <div id="blackrec"></div>
-                        </div>
-                        <div id="scan" >
-                            <div id="scanner">
-                                <h6>59601</h6>
-                                <div id="smallcode"></div>
-                                <h5>200</h5>
-                            </div>
-                            <div id="text">
-                                <p>Digital Edition - $3.75 CAN</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    </div>
+<div class="content">
+    <div class="homepage" style="background-color:#c42929; margin-left:-9.5%;width:119%;">
+        <nav>
+            <div class="navbar">
+            <div class="bob">
+                <div id="joe"></div>
+                <a href="index.html" class="nav-link active">HOME</a>
             </div>
-                
+            <p5>/</p5>
+            <a href="projects.html" class="nav-link">PROJECTS</a>
+            <p5>/</p5>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+            </div>
+        </nav>
+        <div id="name">
+            <h1>SOPHIA DUAN</h1>
+        </div>
+        <div class="top">
+            <div class="socials">
+                <div id="cartoonface"></div>
+                <div id="github"></div>
+                <div id="email"></div>
+            </div>
+
+            <div class="music">
+                <audio id="backgroundMusic" autoplay loop>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p style="font-weight: 300;">Music</p>
+                <p id="musicStatus" style="font-weight:bold;">ON</p>
+                <div id="circle"></div>                        
             </div>
         </div>
-<script> 
-    var loader = document.getElementById("preloader");
-    window.addEventListener("load", function(){
-        loader.style.display = "none";
+    </div>
+    <div class="abouthome">
+        <div class="rec" style="height:25vh;">
+                <p style="height: 5vh;color:#EEE0CB;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in mattis diam. Etiam scelerisque vehicula orci, et aliquam tellus suscipit eget. Sed ac enim accumsan, pretium metus sit amet, egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium felis sit amet est tempor.
 
-    })
-</script>
+                </p>
+                <!-- maybe add a picture/drawing as a photo -->
+        </div>
+    </div>
+    <div class="projectshome">
+        <a href="project1.html" class="project">This Site</a>
+        <a href="project1.html" class="project">This Site</a>
+        <a href="project1.html" class="project">This Site</a>
+    </div>
+
+    <div class="end">
+        <div id="thanks">
+            <p7>THANK YOU FOR CHECKING OUT MY WEBSITE. THIS SITE WAS INSPIRED BY COMIC BOOKS AND @SAMLIU 'S WEBSITE.</p7>
+        </div>
+        <div id="digitalcontent">
+            <div id="blackrec"></div>
+            <div id="whiterec">
+                <p7>DIGITAL</p7>
+                <p7>CONTENT</p7>
+            </div>
+            <div id="blackrec"></div>
+        </div>
+        <div id="scan" >
+            <div id="scanner">
+                <h6>59601</h6>
+                <div id="smallcode"></div>
+                <h5>200</h5>
+            </div>
+            <div id="text">
+                <p>Digital Edition - $3.75 CAN</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+</div>
+</div>
+
 </body>
 </html>
 <!-- huge realization, CHANGE almost EVERYTHING to not use vh so site not effected by screen vertical size, rthe its like a window and just shows less -->
