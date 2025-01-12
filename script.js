@@ -13,11 +13,13 @@ musicStatus.addEventListener('click', () => {
 if (isPlaying) {
     audio.pause(); 
     musicStatus.textContent = "ON"; 
+    circle.style.backgroundColor = '#ff2b39';
+
 
 } else {
     audio.play(); 
     musicStatus.textContent = "OFF"; 
-    circle.style.backgroundColor = 'green';
+    circle.style.backgroundColor = '#69c29e';
 
 }
 isPlaying = !isPlaying; // Toggle the state

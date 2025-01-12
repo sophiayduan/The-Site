@@ -10,7 +10,7 @@ body {
 
 
 .content {
-    background-color: #dc1717;
+    background-color: #c91a1a;
     padding: 0% 8% 8% 8%;
     font-family:"Inter", sans-serif;
     
@@ -160,8 +160,8 @@ nav:has(a:hover) :not(:hover) {
     aspect-ratio: 1 / 1; /* Ensures that images maintain a square aspect ratio */
 }
 .abouthome {
-    height:20vh;
-    padding-bottom:10vh;
+    height:5rem;
+    padding-bottom:5rem;
     width:100%;
     /* background-color:rgba(138, 6, 6, 0.575); */
     display:flex;
@@ -182,28 +182,33 @@ nav:has(a:hover) :not(:hover) {
 }
 
 .project {
-    background-color:#7dd3b1;
-    height:100%;
-    width:30%;
+    background-color:#69c29e;
+    height:90%;
+    width:28%;
+    border-radius:2%;
     /* border: 0.5rem solid #280003; */
-    transition: all 0.3s ease; /* Smooth transition */
-    overflow: hidden; /* Prevent layout issues */
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    padding:2%;
+    margin-bottom:0;
     text-decoration: none;
     font-size:1.5rem;
-    color:#280003;
+    color:#ebeae6;
     font-weight:600;
+    border:2px solid #ebeae6;
 }
 
 .project:hover {
-    width:34%;
+    width:30%;
     height:104%;
+    border-radius:3%;
+    border-color:#ebeae6;
+    color:#c91a1a;
+    text-decoration: underline;
+
     /* border-radius:5%; */
-    box-shadow: 0px 8px 16px rgba(138, 6, 6, 0.575);
-    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 8px 16px rgba(138, 6, 6, 0.685);
+    transition: all 0.3s ease;
 
 
 
@@ -357,7 +362,7 @@ nav:has(a:hover) :not(:hover) {
     height:20rem;
     min-height:fit-content;
     /* background-color: #D68F3E; */
-    border:3px solid #9c2a2a;
+    border:3px solid #9e0e0e;
     display:flex;
     justify-content: space-between;   
     gap:2vw; 
@@ -367,7 +372,7 @@ nav:has(a:hover) :not(:hover) {
 .box img {
     right: 0;
     align-self: flex-end;
-    background-color: #9c2a2a;
+    background-color: #9e0e0e;
     width: 250px;
     height: 250px;
     aspect-ratio: 1 1;
@@ -425,7 +430,7 @@ p {
 
 h3 {
     font-size:2rem;
-    color:#9c2a2a;
+    color:#9e0e0e;
 }
 
 h4 {
@@ -446,7 +451,7 @@ h7 {
     position:relative;
     border: none;
     background-color: #7dd3b1;
-    color:#9c2a2a;
+    color:#9e0e0e;
     border-radius:2rem;
     transition: all 0.5s ease;
     font-weight: 400;
@@ -455,23 +460,23 @@ h7 {
 /* (261deg 80% 48%) */
 h7:hover {
     letter-spacing: 2px;
-    background-color:#9c2a2a;
-    color: #EEE0CB;
-    box-shadow: #9c2a2a 0px 7px 29px 0px;
+    background-color:#9e0e0e;
+    color: #ebebeb;
+    box-shadow: #9e0e0e 0px 7px 29px 0px;
 }
 
 h7:active {
     letter-spacing: 2px;
     background-color:rgba(138, 6, 6);
     color: #EEE0CB;
-    box-shadow: #9c2a2a 0px 0px 0px 0px;
+    box-shadow: #9e0e0e 0px 0px 0px 0px;
     /* transform: translateY(30%); */
     transition: 100ms;
   
 }
 
 #preloader {
-    background:#9c2a2a url(images/preloader.gif) no-repeat center center;
+    background:#9e0e0e url(images/preloader.gif) no-repeat center center;
     background-size:10%;
     height:100vh;
     width:100%;
