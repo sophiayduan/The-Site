@@ -1,9 +1,9 @@
 body {
     margin:0;
-    padding-top: 2%;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-bottom:2%;
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom:2%;
     background-color:rgb(255, 255, 255);
 
 }
@@ -38,6 +38,7 @@ body {
     border-radius:100%;
 }
 .navbar {
+    /* background-color: #f7b66c; */
     padding:1%;
     display:flex;
     gap:2vw;
@@ -90,11 +91,12 @@ nav:has(a:hover) :not(:hover) {
     display:flexbox;
     color:#f7b66c;
 }
-#name {
-    font-size:3rem;
+h1 {
+    font-size:500%;
     text-align:center;
-    margin-top:-4%;
-    /* color:#280003; */
+    margin:0%;
+    margin-top:1%;
+    background-color:#69c29e;
     color:#ebeae6;
 
 }
@@ -104,7 +106,8 @@ nav:has(a:hover) :not(:hover) {
 }
 
 .music {
-    width: 10vw;  
+    width:175px;  
+    background-color:#7dd3b1;
     color:#ebeae6;
     height: 3rem;              
     border: 4px solid #f7b66c;
@@ -112,8 +115,8 @@ nav:has(a:hover) :not(:hover) {
     align-items: center;
     justify-content: center;
     float:right;
-    margin-top:-3%; 
-    margin-right:5%;
+    margin-top:2%;
+    /* margin-right:5%; */
     border-radius:2px;
     gap: 0.5rem;
     font-size:1rem;
@@ -159,32 +162,23 @@ nav:has(a:hover) :not(:hover) {
     height:auto;
     aspect-ratio: 1 / 1; /* Ensures that images maintain a square aspect ratio */
 }
-.abouthome {
-    height:5rem;
-    padding-bottom:5rem;
-    width:100%;
-    /* background-color:rgba(138, 6, 6, 0.575); */
-    display:flex;
-    justify-content: center; 
-    align-items: center;
-    border-radius: 10px;
-    line-height: 1.75;
-}
+
 .projectshome {
     display:flex;
+    /* background-color:#7dd3b1; */
     justify-content: space-between;    
     align-items: center;
     /* background-color:#D68F3E; */
     width:100%;
     height:30vh;
-    padding-top:10vh;
-    padding-bottom:20vh;
+    padding-top:10%;
+    padding-bottom:20%;
 }
 
 .project {
     background-color:#69c29e;
     height:90%;
-    width:28%;
+    width:20rem;
     border-radius:2%;
     /* border: 0.5rem solid #280003; */
     transition: all 0.5s ease;
@@ -192,15 +186,15 @@ nav:has(a:hover) :not(:hover) {
     padding:2%;
     margin-bottom:0;
     text-decoration: none;
-    font-size:1.5rem;
+    font-size:150%;
     color:#ebeae6;
     font-weight:600;
     border:2px solid #ebeae6;
 }
 
 .project:hover {
-    width:30%;
-    height:104%;
+    width:24rem;
+    height:100%;
     border-radius:3%;
     border-color:#ebeae6;
     color:#c91a1a;
@@ -295,7 +289,7 @@ nav:has(a:hover) :not(:hover) {
 
 }
 #digitalcontent {
-    width:11.5rem;
+    width:110px;
     height:auto;
     display:flex;
     flex-direction: column;
@@ -387,9 +381,6 @@ nav:has(a:hover) :not(:hover) {
 
 }
 
-.aproject p{
-    color:#280003;
-}
 
 .idunno {
     display:flex;
@@ -401,6 +392,8 @@ nav:has(a:hover) :not(:hover) {
 
 
 }
+
+
 
 /* .repolink a:hover {
     color:#7dd3b1;
@@ -425,7 +418,15 @@ p {
 .logshome {
     height:60vh;
 }
-
+h2 {
+    height:auto;
+    background-color:#7dd3b1;
+    margin-bottom:5rem;
+    width:100%;
+    line-height: 1.75;
+    color:#ebeae6;
+    font-weight:400;
+}
 
 
 h3 {
@@ -439,9 +440,7 @@ h4 {
     color:#280003;
 }
 
-h2 {
-    color:#280003
-}
+
 
 
 h7 {
@@ -502,4 +501,48 @@ h7:active {
 
 ::-webkit-scrollbar-thumb:hover {
     background:#9c2a2a;
+}
+
+.topleft {
+    background-color:#69c29e;
+    padding:4px;
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+
+    width:120px;
+    height:200px;
+    position:absolute;
+
+}
+
+.char {
+    width:100%;
+    height:70%;
+    background-color:#ebebeb;
+
+}
+
+.other {
+    display:flex;
+    width:100%;
+    height: 30%;
+    background-color: #f7b66c;
+    gap:4px;
+}
+.price {
+    width:50%;
+    height:100%;
+    background-color:#ebebeb;
+    justify-content: flex-start;
+
+}
+
+.approved {
+    width:50%;
+    height:100%;
+    background-color:#ebebeb;
+    justify-content: flex-end;
+
+
 }
