@@ -8,6 +8,9 @@ This is my first proper website and first time shipping a project! There were a 
 
 The music is automatically turned off on the homepage, press the button to hear fire beats.
 
+## Tools
+Made with HTML, CSS and JS
+Hosted on GitHub
 
 
 
