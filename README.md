@@ -1,12 +1,20 @@
-This is my personal site! 
-You can visit it here :
-Hi hack clubbers! thansk for checking out my site. 
 
-ideally you should be viewing this site on a laptop/computer, to fully experience the effects (hover effects, mouse tracking, etc.)
+# Personal Site
 
-This site is in a forever building stage as a learn more about web developpment and apply my skills here, and share my projecs un a blog style post! 
+I highly recommend viewing the site on a larger screen and not a mobile device for a better viewing experience. 
 
-small note: the eye that looks at your mouse was a temporary addition, something to fill the space to "finish" the website so I can study for exams peacefully. 
 
-This is mention on the site but i'll reiterate: 
-This website was inspired by comic books, 
+This is my first proper website and first time shipping a project! There were a lot of firsts making this, so if you have any suggestions please let me know! 
+
+The music is automatically turned off on the homepage, press the button to hear fire beats.
+
+
+
+
+AI was lightly used to help me make this site. 
+## Acknowledgements
+
+ - [Sam Cheng's High Seas Tibytes project](https://github.com/Samalander0/tidbytes/?tab=readme-ov-file#tidbytes)
+ - [ArtManzh Jazz Music](https://pixabay.com/music/smooth-jazz-jazz-funk-groove-instrumental-222618/)
+ 
+
