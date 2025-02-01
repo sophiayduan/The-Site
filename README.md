@@ -2,6 +2,7 @@
 # [Personal Site](https://sophiayduan.github.io/The-Site/)
 
 I highly recommend viewing the site on a larger screen and not a mobile device for a better viewing experience. 
+
 ![Screenshot (1)](https://github.com/user-attachments/assets/1a31f75b-c97d-4cbd-8595-f8eefa2adf08)
 
 
