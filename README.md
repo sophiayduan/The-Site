@@ -6,7 +6,7 @@ I highly recommend viewing the site on a larger screen and not a mobile device f
 ![Screenshot (1)](https://github.com/user-attachments/assets/1a31f75b-c97d-4cbd-8595-f8eefa2adf08)
 
 
-This website is hosted on github pages and created with HTML, CSS and JS. This was created during Hack Club's [High Seas](https://highseas.hackclub.com/) event. 
+This website is hosted on github pages, it's a static site created with HTML, CSS and JS. This was created during Hack Club's [High Seas](https://highseas.hackclub.com/) event. 
 The music is automatically turned off on the homepage, press the button to hear fire beats.
 
 
