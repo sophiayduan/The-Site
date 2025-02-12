@@ -484,8 +484,26 @@ h1 {
 
 }
 
+.gallery {
+    width:100%;
+    background-color:rgba(138, 6, 6, 0.575);
+    display:flex;
+    flex-wrap: wrap;
+    height:auto;
+    justify-content: space-around; 
+    gap:10px;
+    align-items: center;
+    font-size:1.5rem; 
+    /* border-radius: 10px; */
+    line-height: 1.75;
+    /* padding:2% 0%; */
+}
 
-
+.gallery img {
+    max-width:40%;
+    max-height:40%;
+    background-color:#550909;
+}
 /* .repolink a:hover {
     color:#69C29E;
 } */
@@ -693,3 +711,4 @@ h7:active {
     }
 
   }
+
