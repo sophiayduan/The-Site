@@ -3,34 +3,24 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom:5%;
-    background-color:#111111;
+    background-color:#6d1307;
     font-family:"Inter", sans-serif;
 
 }
 
 
-.content {
-    line-height:1;
-    background-color:#111111;
-}
-.centered {
-    display:block;
-    justify-content:center;
-    text-align:left;
-}
+
 h1 {
     font-size:500%;
     /* text-align:center; */
     margin-top:3%;
     color:#EBEBEB;
 }
-.bob {
-    margin-top:3%;
+.active {
     display:flex;
     align-items: center;
     justify-content: center;
     gap:0.5vw;
-    background-color:#69C29E;
 }
 nav {
     margin-top:2%;
@@ -46,7 +36,7 @@ nav a, span {
     color:#EBEBEB;
 
 }
-#joe {
+#activeCircle {
     width:1rem;
     height:1rem;
     background-color:#f93945;
@@ -55,137 +45,54 @@ nav a, span {
     border-radius:100%;
 }
 
-.navbar a, p5 {
-
-    /* background-color:aqua; */
-    margin-top:3%;
-    transition: all 0.25s ease;
-    text-decoration:none;
-    /* color:black; */
-    color:#EBEBEB;
-
-
-
+nav a:hover {
+    transition: all 0.5s ease;
+    color:#ff4545;
 }
 
-.navbar a:hover {
-
-    color:#f7b66c;
+nav a.active {
+    color:#dc1717
 }
 
-/* nav:has(a:hover) :not(:hover) {
-    opacity: 0.3;
-} */
+.panel {
+    background-color:#550909;
+    border:2px solid #EBEBEB;
+    padding:2%;
+    /* border-radius: 0.5%; */
+    /* aspect-ratio: 1 1; */
 
-.navbar a.active {
-    color:#FF2B39;
-    /* font-weight: bold; */
-  }
-  
-  /* Add a circle to the left of the active link todo:make it centered */
-
-#select {
-    display:flexbox;
-    color:#f7b66c;
 }
-
-
-.top {
-    display:inline;
-    
-}
-.musico {
-    width:100%;
-    margin-bottom:10%;
-}
-.music {
-    width:175px;  
-    /* background-color:#69C29E; */
-    color:#EBEBEB;
-    height: 3rem;              
-    border: 4px solid #f7b66c;
-    display: flex;            
-    align-items: center;
-    justify-content: center;
-    float:right;
-    margin-top:3%;
-    /* margin-right:5%; */
-    border-radius:2px;
-    gap: 0.5rem;
-    margin-bottom:1rem;
-    font-size:1rem;
-
-
-    
-}
-
-.music:hover {
-    background-color:#951515;
-    box-shadow: 7px 5px 56px -14px #280003;
-}
-
-
-.rec {
-    width:100%;
-    background-color:rgba(138, 6, 6, 0.575);
-    display:flex;
-    flex-wrap: wrap;
-    height:auto;
-    justify-content: space-around; 
-    gap:10px;
-    align-items: center;
-    font-size:1.5rem; 
-    /* border-radius: 10px; */
-    line-height: 1.75;
-    padding:2% 0%;
-    /* border: 0.5rem solid #280003; */
-    /* border-image: url('backchar.png') 5 round; note: somehow add a custom "comicbook" style border*/
-
-    
-}
-.rec img {
-    width: calc(20% - 10px);
-    height:auto;
-    aspect-ratio: 1 / 1; 
-}
-
 .projectshome {
     display:flex;
-    /* background-color:#69C29E; */
-    justify-content: space-between;    
+    /* background-color:#c2a669; */
+    justify-content: center;    
     align-items: center;
-    /* background-color:#D68F3E; */
-    width:100%;
-    height:30vh;
-    padding-top:6%;
-    /* padding-bottom:20%; */
+    height:auto;
+    gap:1em;
+    flex-wrap:wrap;
 }
 
 .project {
     background-color:#69C29E;
-    height:90%;
-    width:26%;
+    height:25vh;
     border-radius:0.5%;
-    /* border: 0.5rem solid #280003; */
-    transition: all 0.5s ease;
-    overflow: hidden;
-    padding:3%;
-    margin-bottom:0;
+    transition: all 0.35s ease;
+    padding: 1rem 2rem;
+    flex: 1 1 0;   
     text-decoration: none;
     font-size:150%;
     color:#EBEBEB;
     font-weight:600;
+ 
     border:2px solid #EBEBEB;
 }
 
 .project:hover {
-    width:28%;
-    border-radius:0.5%;
-    border-color:#EBEBEB;
-    color:#c91a1a;
     text-decoration: underline;
     box-shadow: 0px 8px 16px rgba(138, 6, 6, 0.685);
+    height:28vh;
     transition: all 0.3s ease;
+    /* flex: 1 2 0; */
 
 }
 
@@ -351,36 +258,9 @@ nav a, span {
     display:flex;
     flex-direction:column;
     gap:2rem;
+    background-color: #69C29E;
 }
-.box {
-    padding:0% 2% 3% 2%;
-    min-height:20rem;
-    min-height:fit-content;
-    /* background-color: #D68F3E; */
-    border:3px solid #821010;
-    display:flex;
-    justify-content: space-between;   
-    gap:2vw; 
 
-    
-}
-.box img {
-    right: 0;
-    align-self: flex-end;
-    background-color: #821010;
-    max-width: 200px;
-    max-height: 200px;
-    aspect-ratio: 1 1;
-    /* padding:2% 0%; */
-    margin:auto;
-  }
-.one {
-    justify-content:flex-start;
-    padding:2% 1.5%;
-    width:90%;
-    line-height:1.5rem;
-
-}
 
 
 .idunno {
@@ -402,7 +282,6 @@ h5 {
     font-size:240%;
     margin:0%;
     color:#EBEBEB;
-    margin-top:5%;
 }
 
 .contact p {
@@ -435,12 +314,7 @@ h2 {
 }
 
 
-h3 {
-    font-size:2rem;
-    color:#EBEBEB;
-    margin:0%;
-}
-
+h
 h4 {
     font-size:1.75vw;
     padding:4%;
