@@ -1,7 +1,7 @@
 body {
-    margin-top: 1%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom:5%;
     background-color:#111111;
     font-family:"Inter", sans-serif;
@@ -11,7 +11,7 @@ body {
 
 .content {
     line-height:1;
-    padding-top:1%;
+    background-color:#111111;
 }
 .centered {
     display:block;
@@ -21,8 +21,7 @@ body {
 h1 {
     font-size:500%;
     /* text-align:center; */
-    margin:0%;
-    margin-top:1%;
+    margin-top:3%;
     color:#EBEBEB;
 }
 .bob {
@@ -31,9 +30,22 @@ h1 {
     align-items: center;
     justify-content: center;
     gap:0.5vw;
-    /* background-color:#69C29E; */
+    background-color:#69C29E;
+}
+nav {
+    margin-top:2%;
+    display:flex; 
+    /* background-color: #f7b66c; */
+    justify-content: center; 
+    align-items: center;
+    gap: 2vw;
 }
 
+nav a, span {
+    text-decoration: none;
+    color:#EBEBEB;
+
+}
 #joe {
     width:1rem;
     height:1rem;
@@ -42,16 +54,7 @@ h1 {
     align-self:center;
     border-radius:100%;
 }
-.navbar {
-    /* background-color: #f7b66c; */
-    padding:1%;
-    display:flex;
-    gap:2vw;
-    align-items: center;
-    justify-content: center;
-    
 
-}
 .navbar a, p5 {
 
     /* background-color:aqua; */
@@ -154,19 +157,19 @@ h1 {
     /* background-color:#D68F3E; */
     width:100%;
     height:30vh;
-    padding-top:10%;
-    padding-bottom:20%;
+    padding-top:6%;
+    /* padding-bottom:20%; */
 }
 
 .project {
     background-color:#69C29E;
     height:90%;
-    width:28%;
-    border-radius:2%;
+    width:26%;
+    border-radius:0.5%;
     /* border: 0.5rem solid #280003; */
     transition: all 0.5s ease;
     overflow: hidden;
-    padding:2%;
+    padding:3%;
     margin-bottom:0;
     text-decoration: none;
     font-size:150%;
@@ -176,18 +179,13 @@ h1 {
 }
 
 .project:hover {
-    width:30%;
-    height:100%;
-    border-radius:3%;
+    width:28%;
+    border-radius:0.5%;
     border-color:#EBEBEB;
     color:#c91a1a;
     text-decoration: underline;
-
-    /* border-radius:5%; */
     box-shadow: 0px 8px 16px rgba(138, 6, 6, 0.685);
     transition: all 0.3s ease;
-
-
 
 }
 
