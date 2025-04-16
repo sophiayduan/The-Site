@@ -16,6 +16,8 @@ h1 {
     margin-top:3%;
     color:#EBEBEB;
 }
+
+
 .active {
     display:flex;
     align-items: center;
@@ -53,13 +55,31 @@ nav a:hover {
 nav a.active {
     color:#dc1717
 }
+.abouttext {
+    text-align:center;
+    justify-self: center;
+    height:auto;
+    background-color:#7c2525;
+}
 
+.abouttext p {
+    color:#69C29E;
+}
 .panel {
     background-color:#550909;
     border:2px solid #EBEBEB;
     padding:2%;
     /* border-radius: 0.5%; */
     /* aspect-ratio: 1 1; */
+}
+
+.panel:hover {
+    height:28vh;
+    margin-top: 2vh;
+    transition: all 0.35s ease-in-out;
+
+    background-color:#790e0e;
+
 
 }
 .projectshome {
@@ -267,17 +287,7 @@ nav a.active {
     display:flex;
 
 }
-.repolink {
-    float:right;
-    color:#EBEBEB;
 
-
-}
-
-
-/* .repolink a:hover {
-    color:#69C29E;
-} */
 h5 {
     font-size:240%;
     margin:0%;
@@ -314,7 +324,7 @@ h2 {
 }
 
 
-h
+
 h4 {
     font-size:1.75vw;
     padding:4%;
