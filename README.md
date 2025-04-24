@@ -1,5 +1,5 @@
 
-# [Personal Site]
+# Personal Site
 
 I highly recommend viewing the site on a larger screen and not a mobile device for a better viewing experience. 
 
