@@ -1,7 +1,7 @@
 body {
     margin-top: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom:5%;
     background-color:#6d1307;
     font-family:"Inter", sans-serif;
@@ -73,15 +73,13 @@ nav a.active {
     /* aspect-ratio: 1 1; */
 }
 
-.panel:hover {
+/* .panel:hover {
     height:28vh;
     margin-top: 2vh;
     transition: all 0.35s ease-in-out;
 
     background-color:#790e0e;
-
-
-}
+} */
 .projectshome {
     display:flex;
     /* background-color:#c2a669; */
@@ -116,7 +114,11 @@ nav a.active {
 
 }
 
-
+.logs {
+    background-color:#e21b1b;
+    height:20vh;
+    width:100%;
+}
 
 .end {
     display:inline-flex;
@@ -289,11 +291,17 @@ nav a.active {
 }
 
 h5 {
-    font-size:240%;
+    font-size:350%;
     margin:0%;
+    padding-top:4%;
     color:#EBEBEB;
 }
 
+h3 {
+    color:#EBEBEB;
+    font-size:180%;
+    background-color:#f7b66c;
+}
 .contact p {
     line-height: 170%;
     /* color:#280003; */
@@ -304,6 +312,14 @@ p {
     line-height:1.5rem;
 
 }
+
+
+.desc p1 {
+    font-size:0.9rem;
+    color:#69C29E;
+}
+
+
 .contact p {
     margin:0.2rem;
 }
