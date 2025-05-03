@@ -99,7 +99,7 @@ nav a.active {
 .project {
     background-color:#fa4d2a;
     height:22vh;
-    border-radius:0.5%;
+    /* border-radius:0.5%; */
     transition: all 0.35s ease;
     padding: 2rem 2rem;
     flex: 1 1 0;   
@@ -299,7 +299,7 @@ nav a.active {
 }
 
 h5 {
-    font-size:350%;
+    font-size:300%;
     margin:0%;
     padding-top:4%;
     color:#EBEBEB;
