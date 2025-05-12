@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="preloader"></div>
+<!-- <div id="preloader"></div> -->
 <div class = "homer"style = "display:flex; flex-direction: column;">
-    <nav>
+    <!-- <nav>
         <div class = "active">
             <div id = "activeCircle"></div>
             <a href="index.html" class="nav-link active">HOME</a>
@@ -26,68 +26,72 @@
         <a href="devlogs.html" class="nav-link">DEVLOGS</a>
         <span>/</span>
         <a href="contact.html" class="nav-link">CONTACT</a>
-    </nav>
-    <div class = "panel" style = "margin-top:5%;height:70vh;background-color:#cd2806;display:flex;justify-content:flex-start;gap:1vw;">
-        <h1 style = "color:#ffffff;margin-left:3vw;margin-top:1vw;">SOPHIA</h1>       
-        <h5 style = "align-self:self-start;color:#27221e;">DUAN</h5>
-
-    
-    </div>
-    <br>
-
-
-
-    <br>
-
-<div class = "panel" style="height:auto; background-color:#e21b1b00;padding-top:0%;">
-    <a href="projects.html" target="_blank" style="text-decoration: none;">
-        <h5>Recent  <span style="color:#e21b1b;display:inline-block;">Projects</span></h5>
-    </a>
-</div>
-<br>
-<!-- <div  style ="background-color:#f7b66c;position:-webkit-sticky;">
-    <p>I'm a student from Ottawa, Canada </p>
-    <p>I like gamedev, CAD, making pcbs</p>
-    <p>Current Technologies: Fusion 360, Onshape, KiCAD, Unity, C#</p>
-</div> -->
-<div class="projectshome" style = "margin-top:2%;">
-    <a href="project1.html" class="project">
-    </a>
-    <a href="projects.html" class="project">
-
-    </a>
-    <a href="projects.html" class="project">
-
-    </a>
-</div>
-<div class="panel" style="height:4rem">
-    <p>My tools</p>
-</div>
-
-</div>
-<div class="end" style = "margin-top:5%;">
-    <div id="thanks">
-        <p7>THANK YOU FOR CHECKING OUT MY WEBSITE. THIS SITE WAS INSPIRED BY COMIC BOOKS, <span style="color:#f7b66c">@THE LINE STUDIO</span>'S WEBSITE AND <span style="color:#f7b66c;">@SAMLIU</span>'S PERSONAL WEBSITE.</p7>
-    </div>
-    <div id="digitalcontent">
-        <div id="blackrec"></div>
-        <div id="whiterec">
-            <p7>DIGITAL</p7>
-            <p7>CONTENT</p7>
+    </nav> -->
+    <section class = "panel" style = "height:auto;background-color:#cd2806;">
+        <nav>
+            <div class = "active">
+                <div id = "activeCircle"></div>
+                <a href="index.html" class="nav-link active">HOME</a>
+            </div>
+            <span>/</span>
+            <a href="projects.html" class="nav-link">PROJECTS</a>
+            <span>/</span>
+            <a href="devlogs.html" class="nav-link">DEVLOGS</a>
+            <span>/</span>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+        </nav>
+        <div class="panel" style="height:26rem;display:flex">
+            <h1 style = "color:#ffffff;margin-left:3vw;margin-top:0;">SOPHIA</h1>  
+            <!-- <h5 style = "align-self:self-start;color:#27221e;">DUAN</h5> -->
         </div>
-        <div id="blackrec"></div>
-    </div>
-    <div id="scan" >
-        <div id="scanner">
-            <h6>59601</h6>
-            <div id="smallcode"></div>
-            <h5>200</h5>
-        </div>
-        <div id="text">
-            <p>Digital Edition - $3.75 CAN</p>
+    </section>
+
+    <div style="position:relative;height:1rem;width:5rem;display:flex;align-items: center;">
+        <div id="stack">
+            <h5 style="font-size:2rem">Recent <span style="color:#d3fdae;display:inline-block;font-size:2rem">Projects</span></h5>
         </div>
     </div>
-</div>
+
+    <section class="projectshome">
+        <a href="project1.html" class="project">
+        </a>
+        <a href="projects.html" class="project">
+
+        </a>
+        <a href="projects.html" class="project">
+
+        </a>
+    </section>
+
+    <div style="position:relative;height:1rem;width:5rem;display:flex;align-items: center;">
+        <div id="stack" style="margin-left:5rem;">
+            <h5 style="font-size:1rem;font-weight:300;">My toolbox</h5>
+        </div>
+    </div>
+
+    <section class="end" style = "margin-top:5%;">
+        <div id="thanks">
+            <p7>THANK YOU FOR CHECKING OUT MY WEBSITE. THIS SITE WAS INSPIRED BY COMIC BOOKS, <span style="color:#f7b66c">@THE LINE STUDIO</span>'S WEBSITE AND <span style="color:#f7b66c;">@SAMLIU</span>'S PERSONAL WEBSITE.</p7>
+        </div>
+        <div id="digitalcontent">
+            <div id="blackrec"></div>
+            <div id="whiterec">
+                <p7>DIGITAL</p7>
+                <p7>CONTENT</p7>
+            </div>
+            <div id="blackrec"></div>
+        </div>
+        <div id="scan" >
+            <div id="scanner">
+                <h6>59601</h6>
+                <div id="smallcode"></div>
+                <h5>200</h5>
+            </div>
+            <div id="text">
+                <p>Digital Edition - $3.75 CAN</p>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
