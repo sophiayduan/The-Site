@@ -105,7 +105,7 @@ nav a.active {
 
 .project {
     background-color:#e92a1d;
-    height:12rem;
+    height:14rem;
     flex-grow:  1;
     width:12rem;
     transition: width  0.65s ease-in-out;
