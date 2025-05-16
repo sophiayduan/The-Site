@@ -51,8 +51,11 @@ nav {
     margin-top:0.5rem;
     display:flex; 
     /* background-color: #f7b66c; */
-    justify-content: center; 
-    align-items: center;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    width:fit-content;
+    flex-grow: 1;
+    height:fit-content;
     gap: 2vw;
 }
 
@@ -60,7 +63,7 @@ nav a, span {
     text-decoration: none;
     color:#572116;
     font-weight: bold;
-    font-size:1rem;
+    font-size:1.1rem;
 
 }
 #activeCircle {
@@ -123,10 +126,10 @@ nav a.active {
 }
 
 .project {
-    background-color:#e92a1d;
+    background-color:#ce281d;
     height:14rem;
     flex-grow:  1;
-    width:12rem;
+    width:20%;
     transition: width  0.65s ease-in-out;
     padding: 2rem;
     text-decoration: none;
@@ -144,7 +147,7 @@ nav a.active {
     border:2px solid #EBEBEB;
     text-decoration: none;
     /* box-shadow: 0px 8px 16px rgba(138, 6, 6, 0.274); */
-    width:24rem;
+    width:35%;
 
 
 }
@@ -346,6 +349,7 @@ p {
     font-weight: 350;
     font-size:1.2rem;
     line-height:2.25rem;
+    overflow:hidden;
 
 }
 
