@@ -1,4 +1,4 @@
-My temporary [personal site](sophiaduan.dev)
+My temporary [personal site](https://sophiaduan.dev/)
 
  
 
