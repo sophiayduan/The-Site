@@ -1,5 +1,4 @@
+My temporary [personal site](sophiaduan.dev)
 
-
-currently working on v2
  
 
