@@ -2,50 +2,71 @@ body {
     margin:0;
     background-color:#f5f4ef;
     font-family: "Inter", sans-serif;
-    padding-top:4rem;
-    height:calc(100vh - 4rem - 3px);
+    min-height:100vh;
     display:flex;
     flex-direction:column;
     color:#019401;
     max-width:100%;
 
-    border:2px solid #a74a44;
-    outline: 2px solid #a74a44;
-    outline-offset:-10px;
+
 
     background-image: radial-gradient(#b9b9b9 0.25px, transparent 1px);
     background-size: 20px 20px;
 
 }
 
+#everything  {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding-top: clamp(1rem, 4vw, 5rem);
+    padding-bottom:2px;
+
+    border:2px solid #a74a44;
+    outline: 2px solid #a74a44;
+    outline-offset:-10px;
+
+}
+
+main, footer {
+    
+    padding: 0rem 10rem;
+}
 a {
     color:#3f3dbb;
 }
 h1 {
     font-size: clamp(2rem, 10vw, 4rem);
-    line-height:1.2rem;
+    line-height:1em;
+    /* background:red; */
+    margin:0.5rem 0rem 1rem 0rem;
+
+    
 
 }
 main {
-    flex: 1;
+    flex:1;
 }
-section, footer {
-    
-    padding: 0rem 16rem;
-}
+
 
 footer {
     text-align:center;
-    padding:1rem;
+   
+    margin-bottom:2rem;
+    padding:1.5rem;
 }
 
 footer p {
     font-size:0.75rem;
 
 }
+
+
+
 #projects{
-    width:100%;
     /* background-color:red; */
+        width:100%;
+
     display:flex;
     justify-content: space-between;
     gap:10px;
@@ -59,7 +80,7 @@ footer p {
 
     background-color:#f3f9bb;
     border:3px solid #a74a44;
-    color:#a74a44;
+    color:#006464;
     border-radius:0.75rem;
     flex:1 1 0;
     transition: all 300ms ease-in-out;
@@ -75,9 +96,38 @@ footer p {
 
 
 p {
-    margin: 0;
-    font-size: clamp(1rem, 5vw, 1.25rem);
+    font-size: clamp(0.75rem, 3.5vw, 1rem);
 
+}
+
+
+#top {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.socials {
+    display:flex;
+    align-items:center;
+}
+.socials img {
+    height:40px;
+}
+
+@media(min-width:1400px){
+    main, footer {
+    
+    padding: 0rem 15rem;
+}
+}
+
+ @media(min-width:1600px){
+    main, footer {
+    
+    padding: 0rem 20rem;
 }
 
 }
