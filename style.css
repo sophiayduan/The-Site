@@ -15,8 +15,9 @@
     --clr-projects: #c73535;
     --clr-borders: #f725dd;
     --clr-projBorders: #56327b;
-    --clr-links: #3f3dbb;
+    --clr-links: #078eb3;
     --clr-projText:#edc1c1;
+
 }
 
 
@@ -130,7 +131,7 @@ h3 {
 .proj {
 
     background-color:var(--clr-projects);
-    border:3px solid var(--clr-borders);
+    border:3px solid var(--clr-projBorders);
     color:var(--clr-projText);
     border-radius:0.75rem;
     flex:1 1 0;

@@ -2,9 +2,12 @@ let darkMode = localStorage.getItem('darkMode');
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
 
+const mode = document.getElementById('mode');
+
 const enableDarkMode = () => {
   document.body.classList.add('darkmode');
   localStorage.setItem('darkMode', 'enabled');
+
 }
 
 const disableDarkMode = () => {
@@ -13,17 +16,23 @@ const disableDarkMode = () => {
 }
 
 if (darkMode === 'enabled') {
+    
   enableDarkMode();
+
+  
 }
 
 
 darkModeToggle.addEventListener('click', () => {
-  // get their darkMode setting
   darkMode = localStorage.getItem('darkMode'); 
   
   if (darkMode !== 'enabled') {
     enableDarkMode();
+    mode.src = '/images/light.png';
+
   } else {  
     disableDarkMode(); 
+        mode.src = '/images/dark.png';
+
   }
 });
