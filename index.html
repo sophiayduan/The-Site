@@ -24,10 +24,16 @@
   <span id="top">
     <p>Hey there! I'm </p>
     <div class="socials">
-      <img src="/images/github.png" >
-      <img src="/images/mail.png">
-      <img src="/images/dark.png">
+      <a href="" target="_blank">
+        <img src="/images/github.png" >
+      </a>
+      <a>
+        <img src="/images/mail.png">
 
+      </a>
+      <button id="dark-mode-toggle" class="dark-mode-toggle">
+        <img src="/images/dark.png" alt="dark_mode">
+      </button>
     </div>
   </span>
   <h1 class="leds">Sophia Duan.</h1>
@@ -36,33 +42,39 @@
   <p>I'm a builder (of mostly hardware projects) based in Ontario, Canada 🇨🇦</p>
   <p>I love creating PCBs, building epic motion systems, coding websites, organizing hackathons, and rock climbing.</p>
 </section>
+<br>
 <section id="sec-proj">
-  <h3>Below are some projects I'm the most proud of. Check out some more on my <a href="">Github</a>.</h3>
+  <h3>Below are some projects I'm the most proud of.</h3>
+  <p style="padding-bottom:1rem;">Check out some more on my <a href="">Github</a></p>
+
   <div id="projects">
     <div class="proj">
       <h2>Builder's Depot</h2>
       <p>An organization where YOU can build world changing projects</p>
     </div>
     <div class="proj">
-      <h2>Builder's Depot</h2>
-      <p>An organization where YOU can build world changing projects</p>
+      <h2>Depot Pick n' Place</h2>
+      <p>A desktop parallel axis tripteron SMT PNP</p>
     </div>
     <div class="proj">
-      <h2>Builder's Depot</h2>
-      <p>An organization where YOU can build world changing projects</p>
+      <h2>JPEG</h2>
+      <p>Ottawa's largest highschool all-girls game jam!</p>
     </div>
   </div>
 </section>
 </main>
 <footer>
-  <p>Copywright Sophia Duan 2025</p>
-  <p>This website is <a href="">open source!</a></p>
+  <p>Copyright Sophia Duan 2025</p>
+  <p>This website is <a href="https://github.com/sophiayduan/The-Site" target="_blank">open source!</a></p>
 </footer>
 </div>
 </body>
-<script>
+<!-- <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
-<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/insights/script.js"></script> -->
 </html>
+<script src="darkmode.js">
+
+  </script>
 <!-- huge realization, CHANGE almost EVERYTHING to not use vh so site not effected by screen vertical size, rthe its like a window and just shows less -->

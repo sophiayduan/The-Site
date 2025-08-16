@@ -1,17 +1,42 @@
+:root {
+    --clr-background: #f5f4ef;
+    --clr-text: #019401;
+    --clr-projects: #f3f9bb;
+    --clr-borders: #a74a44;
+    --clr-projBorders: #a74a44;
+    --clr-links: #3f3dbb;
+    --clr-projText:#006464;
+
+}
+
+.darkmode {
+    --clr-background: #011023;
+    --clr-text: #eddca9;
+    --clr-projects: #c73535;
+    --clr-borders: #f725dd;
+    --clr-projBorders: #56327b;
+    --clr-links: #3f3dbb;
+    --clr-projText:#edc1c1;
+}
+
+
 body {
     margin:0;
-    background-color:#f5f4ef;
     font-family: "Inter", sans-serif;
     min-height:100vh;
     display:flex;
     flex-direction:column;
-    color:#019401;
     max-width:100%;
 
+    background-size: 20px 20px;
 
 
     background-image: radial-gradient(#b9b9b9 0.25px, transparent 1px);
-    background-size: 20px 20px;
+    background-color:var(--clr-background);
+    color:var(--clr-text);
+    
+    
+    cursor: url('images/frontchar.png'), auto;
 
 }
 
@@ -19,12 +44,16 @@ body {
     flex:1;
     display:flex;
     flex-direction:column;
-    padding-top: clamp(1rem, 4vw, 5rem);
+    padding-top: clamp(1rem, 6vw, 8rem);
     padding-bottom:2px;
 
-    border:2px solid #a74a44;
-    outline: 2px solid #a74a44;
+    border:2px solid var(--clr-borders);
+    outline: 2px solid var(--clr-borders);
     outline-offset:-10px;
+
+    
+    
+
 
 }
 
@@ -32,14 +61,34 @@ main, footer {
     
     padding: 0rem 10rem;
 }
+
 a {
-    color:#3f3dbb;
+    color:var(--clr-links);
+}
+
+button {
+    border: none;
+    background-color:transparent;
+    transition:all 300ms ease-in-out;
+}
+
+button:hover {
+    transform:scale(1.1);
+
+}
+
+.socials a {
+    transition:all 300ms ease-in-out;
+}
+
+.socials a:hover {
+    transform:scale(1.1);
 }
 h1 {
     font-size: clamp(2rem, 10vw, 4rem);
     line-height:1em;
     /* background:red; */
-    margin:0.5rem 0rem 1rem 0rem;
+    margin:0rem 0rem 2.5rem 0rem;
 
     
 
@@ -61,7 +110,9 @@ footer p {
 
 }
 
-
+h3 {
+    margin:0%;
+}
 
 #projects{
     /* background-color:red; */
@@ -72,19 +123,22 @@ footer p {
     gap:10px;
     flex-wrap:wrap;
     text-align: center;
-    height:14rem;
+    height:12rem;
 
 }
 
 .proj {
 
-    background-color:#f3f9bb;
-    border:3px solid #a74a44;
-    color:#006464;
+    background-color:var(--clr-projects);
+    border:3px solid var(--clr-borders);
+    color:var(--clr-projText);
     border-radius:0.75rem;
     flex:1 1 0;
     transition: all 300ms ease-in-out;
     padding:0.75rem;
+
+    
+
 }
 
 .proj:hover {
@@ -97,6 +151,7 @@ footer p {
 
 p {
     font-size: clamp(0.75rem, 3.5vw, 1rem);
+    margin:0.2em;
 
 }
 
@@ -112,6 +167,7 @@ p {
 .socials {
     display:flex;
     align-items:center;
+    gap:5px;
 }
 .socials img {
     height:40px;
