@@ -20,7 +20,9 @@
 
 }
 
-
+.proj {
+    text-decoration: none;
+}
 body {
     margin:0;
     font-family: "Inter", sans-serif;
@@ -36,9 +38,7 @@ body {
     background-color:var(--clr-background);
     color:var(--clr-text);
     
-    
-    cursor: url('images/frontchar.png'), auto;
-
+    /* cursor:url('images/cursor.cur') 16 16, auto;  */
 }
 
 #everything  {
@@ -67,16 +67,7 @@ a {
     color:var(--clr-links);
 }
 
-button {
-    border: none;
-    background-color:transparent;
-    transition:all 300ms ease-in-out;
-}
 
-button:hover {
-    transform:scale(1.1);
-
-}
 
 .socials a {
     transition:all 300ms ease-in-out;
@@ -89,7 +80,8 @@ h1 {
     font-size: clamp(2rem, 10vw, 4rem);
     line-height:1em;
     /* background:red; */
-    margin:0rem 0rem 2.5rem 0rem;
+    margin:0;
+    margin-bottom:1.75rem;
 
     
 
@@ -174,6 +166,44 @@ p {
     height:40px;
 }
 
+
+#tooltip {
+    opacity: 0;
+    padding:4px 8px;
+    background-color:#b9b9b9;
+    position:absolute;
+    transform: translateX(-30%) translateY(-35px);
+
+}
+
+
+button:hover #tooltip{
+    opacity:100%;
+
+
+
+
+}
+button {
+    border: none;
+    background-color:transparent;
+    transition:all 300ms ease-in-out;
+
+}
+button #tooltip {
+
+    transition:all 300ms ease-in-out;
+
+}
+button:hover img{
+    transform:scale(1.1);
+
+}
+@media(max-width:800px){
+    main,footer {
+        padding:0rem 4rem;
+    }
+}
 @media(min-width:1400px){
     main, footer {
     
