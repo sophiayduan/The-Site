@@ -13,12 +13,21 @@
     --clr-background: #011023;
     --clr-text: #eddca9;
     --clr-projects: #c73535;
-    --clr-borders: #f725dd;
+    --clr-borders: #c872ab;
     --clr-projBorders: #56327b;
     --clr-links: #078eb3;
     --clr-projText:#edc1c1;
 
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
 .proj {
     text-decoration: none;
@@ -164,31 +173,50 @@ p {
     height:40px;
 }
 
+.socials button{
+    height:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
+/* #jpeg {
+    display:none;
+} */
 
 
 .tab {
-    border:2px solid rgb(223, 223, 223);
-    border-radius:8px;
+    border:1.5px solid #e2e2e2;
+    border-radius:6px;
     background-color:#f0f0f0;
-    color:rgb(163, 163, 163);
-    padding:3px 6px;
+    padding:4px 6px;
+    color:black; 
     width:500px;
     height:fit-content;
     display:flex;
     flex-direction:column;
-    
+    align-items:center;
+    position:absolute;
+    cursor: move;
+
     
 }
 
-.tab button{
+.tab p{
+    font-size:0.82rem;
+}
+.tab #links button {
+    margin:1px 0px;
     border-radius:2px;
     border:1px solid rgb(223, 223, 223);
+    width:120px;
+    background-color:white;
+
 
 }
 .tab button:hover {
-    outline:1px solid#3f3dbb;
-    background-color:#3f3dbb40;
+    outline:1px solid#258bd9;
+    background-color:#e0eef9;
 }
 
 #tooltip {
@@ -203,10 +231,6 @@ p {
 
 button:hover #tooltip{
     opacity:100%;
-
-
-
-
 }
 button {
     border: none;
@@ -217,7 +241,7 @@ button {
 }
 button #tooltip {
 
-    transition:all 300ms ease-in-out;
+    transition:all 200ms ease-in-out;
 
 }
 button:hover img{
