@@ -20,109 +20,138 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_box_outline_blank" />
 </head>
 <body>
-<div id="everything">
-<main>
-  <div class="tab" id="jpeg" style="display:none;">
-    <span id="top">
-      <p>JPEG - July 5-6th 2025</p>
+  <section>
+    <div id="top">
+      <p>Hey there! I'm </p>
       <div class="socials">
-        <button style="">
-          <img src="images/remove.svg" width="20px">
+        <button href="" target="_blank">
+          <p id="tooltip">github</p>
+          <img src="images/github.png" >
         </button>
         <button>
-          <img src="images/box.svg" width="15px">
+          <p id="tooltip">sophia@buildersdepot.org</p>
+          <img src="images/mail.png">
         </button>
-        <button>
-          <img src="images/close.svg" width="20px">
+        <button id="dark-mode-toggle" class="dark-mode-toggle">
+            <p id="tooltip">dark mode</p>
+          <img id="mode"src="/images/dark.png" alt="toggle dark mode">
         </button>
       </div>
-    </span>
-    <div style="border:1px rgb(211, 211, 211) solid;border-radius:4px;width:100%;min-height:320px;display:flex;align-items:center;justify-content:center;background-color:#f9f9f9;">
-      <div style="display:flex;align-items:center;justify-content:center;position:relative;transform:scale(0.37);background:red;width:100%;height:fit-content;">
-          <iframe src="https://jpeg.hackclub.com/"style="position: absolute;width: 1280px; height: 800px;border:3px solid gray ">
-          <a href="https://jpeg.hackclub.com/" target="_blank"
-            style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; text-indent:-9999px;">
-            Visit Original Site
-          </a>
-          </iframe>
-          
+    </div>
+    <h1 class="leds">Sophia Duan.</h1>
+  </section>
+
+  <section>
+    <p>I'm a builder (of mostly hardware projects) based in Ontario, Canada 🇨🇦</p>
+    <p>I love creating PCBs, building epic motion systems, coding websites, organizing hackathons, and rock climbing.</p>
+  </section>
+
+  <br>
+  
+  <section id="popup_tabs">
+    <!-- ENDEV -->
+    <div class="tab" id="endev" style="display:none;">
+      <span id="top">
+        <p>Endev</p>
+        <div class="socials">
+          <button>
+            <img src="images/remove.svg" width="20px">
+          </button>
+          <button>
+            <img src="images/box.svg" width="15px">
+          </button>
+          <button>
+            <img src="images/close.svg" width="20px">
+          </button>
         </div>
-    </div>
-  <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
-    <p>I organized JPEG, a 25h all-girls highschool hackathon (also Ottawa's first of its kind). I worked on the website with <a>Haya Asif</a> and led a web development for 80+ participants.
-      </p>
-    <div id="links">
-      <button>view site</button>
-      <button>view github repo</button>
-    </div>
-  </div>
-  <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
-    <p>sophiaduan.dev/jpeg</p>
-    <div id ="links">
-  <button style="width:50px;">OK</button>
-    </div>
-    
-  </span>
-</div>
-
-<section>
-
-<span id="top">
-  <p>Hey there! I'm </p>
-  <div class="socials">
-    <button href="" target="_blank">
-      <span id="tool">
-        <p id="tooltip">github</p>
       </span>
-      <img src="images/github.png" >
-    </button>
-    <button>
-      <span id="tool">
-        <p id="tooltip">sophia@buildersdepot.org</p>
+      <div style="border:1px rgb(211, 211, 211) solid;border-radius:4px;width:100%;min-height:320px;display:flex;align-items:center;justify-content:center;background-color:#f9f9f9;">
+        <div style="display:flex;align-items:center;justify-content:center;position:relative;transform:scale(0.37);background:red;width:100%;height:fit-content;">
+            <iframe src="https://jpeg.hackclub.com/"style="position: absolute;width: 1280px; height: 800px;border:3px solid gray ">
+            </iframe> 
+          </div>
+      </div>
+    <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
+      <p>TK
+        </p>
+      <div id="links">
+        <button>view github repo</button>
+      </div>
+    </div>
+    <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
+      <p>sophiaduan.dev/endev</p>
+      <div id ="links">
+    <button style="width:50px;">OK</button>
+        </div>
       </span>
-      <img src="images/mail.png">
-    </button>
-    <button id="dark-mode-toggle" class="dark-mode-toggle">
-      <span id="tool">
-        <p id="tooltip">dark mode</p>
+    </div>
+    <!-- JPEG -->
+    <div class="tab" id="jpeg" style="display:none;">
+      <span id="top">
+        <p>JPEG - July 5-6th 2025</p>
+        <div class="socials">
+          <button>
+            <img src="images/remove.svg" width="20px">
+          </button>
+          <button>
+            <img src="images/box.svg" width="15px">
+          </button>
+          <button>
+            <img src="images/close.svg" width="20px">
+          </button>
+        </div>
       </span>
-      <img id="mode"src="/images/dark.png" alt="toggle dark mode">
-    </button>
-  </div>
-</span>
-<h1 class="leds">Sophia Duan.</h1>
-</section>
-<section>
-<p>I'm a builder (of mostly hardware projects) based in Ontario, Canada 🇨🇦</p>
-<p>I love creating PCBs, building epic motion systems, coding websites, organizing hackathons, and rock climbing.</p>
-</section>
-<br>
-<section id="sec-proj">
-<h3>Below are some of my recent projects</h3>
-<p style="padding-bottom:1rem;">Check out some more on my <a href="">Github</a></p>
+      <div style="border:1px rgb(211, 211, 211) solid;border-radius:4px;width:100%;min-height:320px;display:flex;align-items:center;justify-content:center;background-color:#f9f9f9;">
+        <div style="display:flex;align-items:center;justify-content:center;position:relative;transform:scale(0.37);background:red;width:100%;height:fit-content;">
+            <iframe src="https://jpeg.hackclub.com/"style="position: absolute;width: 1280px; height: 800px;border:3px solid gray ">
+            </iframe> 
+          </div>
+      </div>
+    <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
+      <p>I organized JPEG, a 25h all-girls highschool hackathon (also Ottawa's first of its kind). I worked on the website with <a>Haya Asif</a> and led a web development for 80+ participants.
+        </p>
+      <div id="links">
+        <button>view site</button>
+        <button>view github repo</button>
+      </div>
+    </div>
+    <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
+      <p>sophiaduan.dev/jpeg</p>
+      <div id ="links">
+    <button style="width:50px;">OK</button>
+        </div>
+      </span>
+    </div>
 
-<div id="projects">
-  <div class="proj">
-    <h2>Builder's&nbspDepot</h2>
-    <p>An organization where YOU can build world changing projects</p>
-  </div>
-  <div class="proj">
-    <h2>Depot Pick n' Place</h2>
-    <p>A desktop parallel axis tripteron SMT PNP</p>
-  </div>
-  <a  target="_blank" class="proj" 
-  onclick="document.getElementById('jpeg').style.display= 'block'" >
-      <h2>JPEG</h2>
-      <p>Ottawa's largest highschool all-girls game jam!</p>
-    </a>
-  </div>
-</section>
-</main>
-<footer>
-<p>Copyright Sophia Duan 2025</p>
-<p>This website is <a href="https://github.com/sophiayduan/The-Site" target="_blank">open source!</a></p>
-</footer>
-</div>
+  </section>
+  <section id="sec-proj" style="padding-top:1rem;">
+    <h3>Below are some of my recent projects</h3>
+    <p style="padding-bottom:1rem;">Check out some more on my <a href="">Github</a></p>
+
+    <div id="projects">
+      <a  target="_blank" class="proj" 
+        onclick="document.getElementById('endev').style.display= 'block'">
+        <h2>Endev</h2>
+        <p>A system to illuminate/monitor my Ender 3. I'm working on v1.5 of the devboard to no longer make it a devboard.</p>
+      </a>
+      <a  target="_blank" class="proj" 
+        onclick="document.getElementById('jpeg').style.display= 'block'">
+        <h2>JPEG</h2>
+        <p>Ottawa's largest highschool all-girls game jam!</p>
+      </a>
+      <a  target="_blank" class="proj" 
+        onclick="document.getElementById('jpeg').style.display= 'block'">
+        <h2>Tripteron <br> Pick n' Place</h2>
+        <p>I'm currently working on this, hope to finish it before october</p>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright Sophia Duan 2025</p>
+    <p>This website is <a href="https://github.com/sophiayduan/The-Site" target="_blank">open source!</a></p>
+  </footer>
+  
 </body>
 <!-- <script>
 window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -135,4 +164,3 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
   <script src="script.js">
 
   </script>
-<!-- huge realization, CHANGE almost EVERYTHING to not use vh so site not effected by screen vertical size, rthe its like a window and just shows less -->
