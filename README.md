@@ -8,5 +8,7 @@ For a better viewing experience check it out on desktop (draggable tabs, tooltip
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 ### Credits
+
 Darkmode - Kevin Powell
+
 Hover effect - [Parkhj11](https://codepen.io/parkhj11)
