@@ -79,3 +79,7 @@ function clicked(e, desktopTab) {
       tab.style.display = "block"  
 }
 }
+
+reveal_about.addEventListener('click', () => {
+  document.getElementById('about').classList.toggle('hidden');
+});
