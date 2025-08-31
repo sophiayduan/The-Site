@@ -75,7 +75,7 @@ function clicked(e, desktopTab) {
   }
   else {
     e.preventDefault();
-
-    document.getElementById(desktopTab).style.display  = 'block';
-  }
+      const tab = document.getElementById(desktopTab);
+      tab.style.display = "block"  
+}
 }
