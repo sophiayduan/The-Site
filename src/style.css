@@ -47,7 +47,8 @@ h3 {
 
 
 p {
-    font-size: clamp(0.75rem, 3.5vw, 1rem);
+    /* font-size: clamp(1rem, 3.5vw, 1rem); */
+    font-size:1rem;
     margin:0.2em;
 }
 
@@ -248,7 +249,6 @@ a:hover #tooltip {
         border-radius:100vw;
         color:var(--clr-projText);
         border:2px dashed var(--clr-projBorders);
-        font-size:0.rem;
     }
 
 }
