@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophia Duan</title>
+  <link rel="stylesheet" href="../style.css">
+  <meta name="description" content="I like to make cool things.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io (1)/site.webmanifest">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_box_outline_blank" />
+</head>
+<body>
+    <section>
+        <div id="top">
+            <a href="../index.html" id="link"><-- back </a>
+            <div class="socials">
+                <a href="" target="_blank">
+                <p id="tooltip">github</p>
+                <img src="../../images/github.png" >
+                </a>
+                <a href="mailto:sophiayduan@gmail.com">
+                <p id="tooltip">sophiayduan@gmail.com</p>
+                <img src="../../images/mail.png">
+                </a>
+                <a id="dark-mode-toggle" class="dark-mode-toggle">
+                    <p id="tooltip">dark mode</p>
+                <img id="mode"src="../../images/dark.png" alt="toggle dark mode">
+                </a>
+        </div>
+        </div>
+
+        <h1>Endev</h1>
+        <p>A system that monitors my printer using electronic and mechanical components.</p>
+
+        <div style="display:flex;align-items:center;flex-wrap:wrap;gap:10px;">
+            <h3>Tools:</h3>
+
+            <ul class="tools">
+                <li>Kicad</li>
+                <li>Fusion 360</li>
+            </ul>
+            <p style="margin-left:auto;">Jun 2025 - Present</p>
+
+        </div>
+        <hr style="border: 0.2px solid var(--clr-projBorders);margin-bottom:1rem;">
+    </section>
+
+    <section>
+        <div style="display:flex;flex-wrap:wrap;align-items:center; justify-content:center;gap:20px;padding:2rem 0rem;">
+            <img src="../../images/endev_back.png" width="48%" style="min-width:350px">
+            <img src="../../images/endev_front.png" width="48%" style="min-width:350px">
+        </div>
+        <p>Features:</p>
+        <ul>
+            <li><span class="kindabold">Form factor: </span>fits inside the spool holder bracket</li>
+            <li><span class="kindabold">Mounting: </span>Magnets that align with the spool holder bracket</li>
+            <li><span class="kindabold">Peripherals: </span>Accelerometer (to detect intense vibration), Temp/humidity sensor (self explanatory), ESP-12F (for sending notifications over wifi), Configuration switches, status LED</li>
+            <li><span class="kindabold">Filament movement detection: </span>Checks if the filament is moving or not (e.g. filament runout, jam)</li>
+            <li><span class="kindabold">LED strip attachment: </span>so I can illuminate my printer</li>
+        </ul>
+        <p>I built it as my printer is not known for its reliability, so by tracking common points of failure, I can hopefully stop the print before wasting too much filament.</p>
+        <br>
+        <p>I'm currently working on v1.5 of the 'devboard', this version won't be a devboard and will condense the rotary encoder and main board into one pcb! I'll come back and write a detailed log about this project once it's fully complete.</p>
+
+    </section>
+    <footer>
+        <p>Copyright Sophia Duan 2025</p>
+        <p>This website is <a href="https://github.com/sophiayduan/The-Site" target="_blank" id="link">open source!</a></p>
+    </footer>
+</body>
+</html>
+<script src="../darkmode.js"></script>
+<script src="../script.js"></script>

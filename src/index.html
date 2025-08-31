@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophia Duan</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="I like to make cool things.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io (1)/site.webmanifest">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_box_outline_blank" />
+</head>
+<body>
+  <section>
+    <div id="top">
+      <p>Hey&nbspthere!&nbspI'm </p>
+      <div class="socials">
+        <a href="" target="_blank">
+          <p id="tooltip">github</p>
+          <img src="../images/github.png" >
+        </a>
+        <a href="mailto:sophiayduan@gmail.com">
+          <p id="tooltip">sophiayduan@gmail.com</p>
+          <img src="../images/mail.png">
+        </a>
+        <a id="dark-mode-toggle" class="dark-mode-toggle">
+            <p id="tooltip">dark mode</p>
+          <img id="mode"src="../images/dark.png" alt="toggle dark mode">
+        </a>
+      </div>
+    </div>
+    <h1 class="leds">Sophia Duan.</h1>
+  </section>
+
+  <section>
+    <p>I'm a builder (of mostly hardware projects) based in Ontario, Canada 🇨🇦</p>
+    <p>I love creating PCBs, building epic motion systems, coding websites, organizing hackathons, and rock climbing.</p>
+  </section>
+
+  <br>
+  
+  <section id="popup_tabs">
+    <!-- ENDEV -->
+    <div class="tab" id="endev" style="display:none;top:50px;left:50px;">
+      <span id="top">
+        <p>Endev</p>
+        <div class="socials">
+          <!-- <button>
+            <img src="images/remove.svg" width="20px">
+          </button>
+          <button>
+            <img src="images/box.svg" width="15px">
+          </button> -->
+          <button onclick="document.getElementById('endev').style.display='none'">
+            <img src="../images/close.svg" width="20px">
+          </button>
+        </div>
+      </span>
+      <div style="border:1px rgb(211, 211, 211) solid;border-radius:4px;width:100%;min-height:320px;display:flex;align-items:center;justify-content:center;background-color:#f9f9f9;">
+        <div style="display:flex;align-items:center;justify-content:center;position:relative;transform:scale(0.37);background:red;width:100%;height:fit-content;">
+            <img src="../images/endev_back.png"style="position: absolute;width: auto; height: 800px;border:3px solid gray ">
+          </div>
+      </div>
+    <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
+      <p> It features an led strip, filament feeding detection, temp/humidity sensor, accelerometer (for vibrations) and wifi connectivity. (I'm working on v1.5 of the devboard to no longer make it a devboard.)
+      </p>
+      <div id="links">
+        <div>
+          <a href="pages/endev.html" target="_blank">read more</a>
+        </div>
+        <div>
+          <a href="https://github.com/sophiayduan/Endev-board" target="_blank">view github repo</a>
+        </div>
+      </div>
+    </div>
+    <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
+      <p>sophiaduan.dev/endev</p>
+      <div id ="links">
+        <button style="width:50px;" onclick="document.getElementById('endev').style.display='none'">OK</button>
+        </div>
+      </span>
+    </div>
+
+    <!-- JPEG -->
+    <div class="tab" id="jpeg" style="display:none;top:80px;right:400px;">
+      <span id="top">
+        <p>JPEG - July 5-6th 2025</p>
+        <div class="socials">
+          <!-- <button>
+            <img src="images/remove.svg" width="20px">
+          </button>
+          <button>
+            <img src="images/box.svg" width="15px">
+          </button> -->
+          <button onclick="document.getElementById('jpeg').style.display='none'">
+            <img src="../images/close.svg" width="20px">
+          </button>
+        </div>
+      </span>
+      <div style="border:1px rgb(211, 211, 211) solid;border-radius:4px;width:100%;min-height:320px;display:flex;align-items:center;justify-content:center;background-color:#f9f9f9;">
+        <div style="display:flex;align-items:center;justify-content:center;position:relative;transform:scale(0.37);background:red;width:100%;height:fit-content;">
+            <iframe src="https://jpeg.hackclub.com/"style="position: absolute;width: 1280px; height: 800px;border:3px solid gray ">
+            </iframe> 
+          </div>
+      </div>
+    <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
+      <p>I organized JPEG, a 25h all-girls highschool hackathon (also Ottawa's first of its kind). I worked on the website with <a>Haya Asif</a> and led a web development for 80+ participants.
+        </p>
+      <div id="links">
+        <div>
+          <a href="pages/jpeg.html" target="_blank">read more</a>
+        </div>
+        <div>
+          <a href="https://jpeg.hackclub.com/" target="_blank">view github repo</a>
+        </div>
+        <div>
+          <a href="https://jpeg.hackclub.com/" target="_blank">view site</a>
+        </div>
+        
+      </div>
+    </div>
+    <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
+      <p>sophiaduan.dev/jpeg</p>
+      <div id ="links">
+          <button style="width:50px;" onclick="document.getElementById('jpeg').style.display='none'">OK</button>
+        </div>
+      </span>
+    </div>
+<!-- DEPOT -->
+    <div class="tab" id="pnp" style="display:none;top:200px;right:350px;">
+      <span id="top">
+        <p>Tripteron Pick n' Place <b>ONGOING</b></p>
+        <div class="socials">
+          <!-- <button>
+            <img src="images/remove.svg" width="20px">
+          </button>
+          <button>
+            <img src="images/box.svg" width="15px">
+          </button> -->
+          <button onclick="document.getElementById('pnp').style.display='none'"">
+            <img src="../images/close.svg" width="20px">
+          </button>
+        </div>
+      </span>
+      
+    <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
+      <p>This is my current focus, once I'm further along i'll update this site.
+        </p>
+        <div id="links">
+          <div>
+            <a href="pages/pnp.html" target="_blank">read more</a>
+          </div>
+        </div>
+    </div>
+    <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
+      <p>sophiaduan.dev/pnp</p>
+      <div id ="links">
+          <button style="width:50px;" onclick="document.getElementById('pnp').style.display='none'"">OK</button>
+        </div>
+      </span>
+    </div>
+    
+  </section>
+  <section id="sec-proj" style="padding-top:1rem; margin-bottom:4rem;">
+    <h3>Below are some of my recent projects</h3>
+    <p style="padding-bottom:1rem;" >Check out some more on my <a href="https://github.com/sophiayduan/" id="link">Github</a></p>
+
+    <div id="projects" style="padding-bottom:4rem;">
+      <a target="_blank" class="proj" 
+        onclick="clicked('pages/endev.html', 'endev')">
+        <h2>Endev</h2>
+        <p>A system to illuminate/monitor my Ender 3. </p>
+      </a>
+      <a  target="_blank" class="proj" 
+        onclick="clicked('pages/jpeg.html', 'jpeg')">
+        <h2>JPEG</h2>
+        <p>Ottawa's largest highschool all-girls game jam!</p>
+      </a>
+      <a  target="_blank" class="proj" 
+        onclick="clicked('pages/pnp.html', 'pnp')">
+        <h2>Tripteron <br> Pick n' Place</h2>
+        <p>A parallel axis tripteron SMT pick and place</p>
+      </a>
+    </div>
+    
+  </section>
+
+
+  <!-- <footer>
+    <p>Copyright Sophia Duan 2025</p>
+    <p>This website is <a href="https://github.com/sophiayduan/The-Site" target="_blank" id="link">open source!</a></p>
+  </footer> -->
+  
+</body>
+<script>
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</html>
+<script src="darkmode.js"></script>
+<script src="script.js"></script>
