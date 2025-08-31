@@ -26,7 +26,6 @@ body {
     display:flex;
     flex-direction:column;
     background-size: 20px 20px;
-
     background-image: radial-gradient(#b9b9b9 0.25px, transparent 1px);
     background-color:var(--clr-background);
     color:var(--clr-text);
@@ -70,15 +69,14 @@ a {
 }
 a:hover {
     font-weight:500;
+}
 
-    img {
-    transform:scale(1.1);
+a:hover img {
+    transform: scale(1.1);
+}
 
-    }
-
-    #tooltip {
-        opacity:100%;
-    }
+a:hover #tooltip {
+    opacity: 100%;
 }
 
 #projects{
@@ -87,15 +85,15 @@ a:hover {
     justify-content: space-between;
     gap:10px;
     text-align:center;
+    height:auto;
 
-    height:fit-content;
-
-    h2 {
-        margin:0;
-        padding:0;
-    }
+ 
 }
 
+#projects h2 {
+    margin:0;
+    padding:0;
+}
 
 .proj {
     cursor:pointer;
@@ -103,15 +101,18 @@ a:hover {
     border:4px solid var(--clr-projBorders);
     color:var(--clr-projText);
     border-radius:0.75rem;
+
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
     gap:2px;
+
     transition: all 300ms ease-in-out;
     padding:1.25rem;
     min-height: 150px;
     flex:1 1 0;
+
 }
 
 .proj:hover {
@@ -131,8 +132,6 @@ a:hover {
     justify-content:space-between;
     align-items:center;
     
-    
-
 }
 
 
@@ -265,8 +264,7 @@ li {
 
 footer {
     text-align:center;
-    margin-bottom:2rem;
-    margin:1.5rem;
+    padding:2rem;
 }
 
 footer p {
@@ -284,6 +282,7 @@ footer p {
     #projects{
         flex-direction:column;
         align-items:center;
+        justify-content:center;
     }
 
     .proj 
@@ -300,12 +299,11 @@ footer p {
     body {
         padding-left: 3rem;
         padding-right: 3rem;
-        /* height:auto; */
 
     }
 
     #projects {
-        height:12rem;
+        height:auto;
 
     }
 
@@ -315,6 +313,8 @@ footer p {
     body {
         padding-left: 15rem;
         padding-right: 15rem;
+        height:calc(100vh - var(--mtop));
+
 
     }
 
@@ -327,12 +327,18 @@ footer p {
         height:calc(100vh - var(--mtop));
     }
 
+
+
 }
- @media(min-width:1600px){
+ @media(min-width:2000px){
     body {
         padding-left: 20rem;
         padding-right: 20rem;
         height:calc(100vh - var(--mtop));
+    }
+
+    .proj {
+        height:12rem;
     }
 
 }
