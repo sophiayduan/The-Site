@@ -69,13 +69,13 @@ tabs.forEach((tab, i) => {
   });
 });
 
-function clicked(mobilePage, desktopTab) {
+function clicked(e, desktopTab) {
   if (window.innerWidth <=768) {
-    window.location.href = mobilePage;
-  
+    return;
   }
-
   else {
+    e.preventDefault();
+
     document.getElementById(desktopTab).style.display  = 'block';
   }
 }
