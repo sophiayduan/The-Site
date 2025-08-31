@@ -6,7 +6,7 @@
     --clr-links: #3f3dbb;
     --clr-projText:#006464;
 
-    --mtop: clamp(2rem, 6vw, 8rem);
+    --mtop: clamp(1rem, 6vw, 8rem);
 
 
 }
@@ -222,6 +222,10 @@ p {
     align-items:center;
 }
 
+.display {
+    display:block;
+    z-index:calc(var(--z-index) + 1);
+}
 
 .tab {
     border:1.5px solid #e2e2e2;
@@ -236,19 +240,42 @@ p {
     align-items:center;
     position:absolute;
     cursor: move;
-
+    z-index:10;
     
 }
+
 
 .tab p{
     font-size:0.82rem;
 }
-.tab #links button {
+ #links button {
     margin:1px 0px;
     border-radius:2px;
     border:1px solid rgb(223, 223, 223);
     width:120px;
     background-color:white;
+
+
+}
+ #links div{
+    width:130px;
+    border-radius:3px;
+    border:1px solid rgb(223, 223, 223);
+    background-color:white;
+    text-align:center;
+    
+}
+ #links  a{
+    text-decoration: none;
+    color:black;
+    font-size:0.8rem;
+    padding:3px;
+    white-space:nowrap;
+    font-weight:400;
+}
+ #links div:hover {
+    outline:1px solid#258bd9;
+    background-color:#e0eef9;
 
 
 }
@@ -262,7 +289,7 @@ p {
     padding:4px 8px;
     background-color:#b9b9b9;
     position:absolute;
-    transform: translateY(-50px);
+    transform: translateY(-0px);
 
 }
 

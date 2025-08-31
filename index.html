@@ -50,17 +50,17 @@
   
   <section id="popup_tabs">
     <!-- ENDEV -->
-    <div class="tab" id="endev" style="display:none;">
+    <div class="tab" id="endev" style="display:none;top:50px;left:50px;">
       <span id="top">
         <p>Endev</p>
         <div class="socials">
-          <button>
+          <!-- <button>
             <img src="images/remove.svg" width="20px">
           </button>
           <button>
             <img src="images/box.svg" width="15px">
-          </button>
-          <button>
+          </button> -->
+          <button onclick="document.getElementById('endev').style.display='none'">
             <img src="images/close.svg" width="20px">
           </button>
         </div>
@@ -72,31 +72,57 @@
           </div>
       </div>
     <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
-      <p>TK
-        </p>
+      <p> It features an led strip, filament feeding detection, temp/humidity sensor, accelerometer (for vibrations) and wifi connectivity. (I'm working on v1.5 of the devboard to no longer make it a devboard.)
+      </p>
       <div id="links">
-        <button>view github repo</button>
+        <div>
+          <a href="https://github.com/sophiayduan/Endev-board" target="_blank">view github repo</a>
+
+        </div>
       </div>
     </div>
     <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
       <p>sophiaduan.dev/endev</p>
       <div id ="links">
-    <button style="width:50px;">OK</button>
+    <button style="width:50px;" onclick="document.getElementById('endev').style.display='none'">OK</button>
         </div>
       </span>
     </div>
+    
+  </section>
+  <section id="sec-proj" style="padding-top:1rem;">
+    <h3>Below are some of my recent projects</h3>
+    <p style="padding-bottom:1rem;">Check out some more on my <a href="">Github</a></p>
+
+    <div id="projects">
+      <a  target="_blank" class="proj" 
+        onclick="document.getElementById('endev').style.display= 'block'">
+        <h2>Endev</h2>
+        <p>A system to illuminate/monitor my Ender 3. </p>
+      </a>
+      <a  target="_blank" class="proj" 
+        onclick="document.getElementById('jpeg').style.display= 'block'">
+        <h2>JPEG</h2>
+        <p>Ottawa's largest highschool all-girls game jam!</p>
+      </a>
+      <a  target="_blank" class="proj" 
+        onclick="document.getElementById('pnp').style.display= 'block'">
+        <h2>Tripteron <br> Pick n' Place</h2>
+        <p>I'm currently working on this, hope to finish it before october</p>
+      </a>
+    </div>
     <!-- JPEG -->
-    <div class="tab" id="jpeg" style="display:none;">
+    <div class="tab" id="jpeg" style="display:none;top:80px;right:400px;">
       <span id="top">
         <p>JPEG - July 5-6th 2025</p>
         <div class="socials">
-          <button>
+          <!-- <button>
             <img src="images/remove.svg" width="20px">
           </button>
           <button>
             <img src="images/box.svg" width="15px">
-          </button>
-          <button>
+          </button> -->
+          <button onclick="document.getElementById('jpeg').style.display='none'">
             <img src="images/close.svg" width="20px">
           </button>
         </div>
@@ -111,41 +137,52 @@
       <p>I organized JPEG, a 25h all-girls highschool hackathon (also Ottawa's first of its kind). I worked on the website with <a>Haya Asif</a> and led a web development for 80+ participants.
         </p>
       <div id="links">
-        <button>view site</button>
-        <button>view github repo</button>
+        <div>
+          <a href="https://jpeg.hackclub.com/" target="_blank">view site</a>
+        </div>
+        <div>
+          <a href="https://jpeg.hackclub.com/" target="_blank">view github repo</a>
+        </div>
       </div>
     </div>
     <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
       <p>sophiaduan.dev/jpeg</p>
       <div id ="links">
-    <button style="width:50px;">OK</button>
+          <button style="width:50px;" onclick="document.getElementById('jpeg').style.display='none'">OK</button>
         </div>
       </span>
     </div>
-
-  </section>
-  <section id="sec-proj" style="padding-top:1rem;">
-    <h3>Below are some of my recent projects</h3>
-    <p style="padding-bottom:1rem;">Check out some more on my <a href="">Github</a></p>
-
-    <div id="projects">
-      <a  target="_blank" class="proj" 
-        onclick="document.getElementById('endev').style.display= 'block'">
-        <h2>Endev</h2>
-        <p>A system to illuminate/monitor my Ender 3. I'm working on v1.5 of the devboard to no longer make it a devboard.</p>
-      </a>
-      <a  target="_blank" class="proj" 
-        onclick="document.getElementById('jpeg').style.display= 'block'">
-        <h2>JPEG</h2>
-        <p>Ottawa's largest highschool all-girls game jam!</p>
-      </a>
-      <a  target="_blank" class="proj" 
-        onclick="document.getElementById('jpeg').style.display= 'block'">
-        <h2>Tripteron <br> Pick n' Place</h2>
-        <p>I'm currently working on this, hope to finish it before october</p>
-      </a>
+<!-- DEPOT -->
+    <div class="tab" id="pnp" style="display:none;top:200px;right:350px;">
+      <span id="top">
+        <p>Tripteron Pick n' Place <b>ONGOING</b></p>
+        <div class="socials">
+          <!-- <button>
+            <img src="images/remove.svg" width="20px">
+          </button>
+          <button>
+            <img src="images/box.svg" width="15px">
+          </button> -->
+          <button onclick="document.getElementById('pnp').style.display='none'"">
+            <img src="images/close.svg" width="20px">
+          </button>
+        </div>
+      </span>
+      
+    <div style="padding:4px;display:flex;justify-content:space-between;background-color:#f9f9f9;">
+      <p>This is my current focus, once I'm further along i'll update this site.
+        </p>
+     
+    </div>
+    <span id="top" style="background-color:#f0f0f0;padding-top:4px;">
+      <p>sophiaduan.dev/pnp</p>
+      <div id ="links">
+          <button style="width:50px;" onclick="document.getElementById('pnp').style.display='none'"">OK</button>
+        </div>
+      </span>
     </div>
   </section>
+
 
   <footer>
     <p>Copyright Sophia Duan 2025</p>
