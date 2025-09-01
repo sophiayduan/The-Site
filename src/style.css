@@ -130,7 +130,7 @@ h1 span:nth-child(3){
     
     color: var(--clr-links);
     letter-spacing:0.1em;
-    font-size:1rem;
+    font-size:0.85rem;
     font-weight:500;
     text-align:center;
     line-height:1rem;
@@ -395,8 +395,14 @@ footer p {
 }
 @media(max-width:460px){
     #special {
-        margin-bottom:-0.2rem;
+        margin-bottom:-0.9rem;
     }
+
+    h1 span:nth-child(3){
+        font-size:0.2rem;
+    }
+
+
 }
 
 @media(max-width:800px){
@@ -414,7 +420,7 @@ footer p {
 
     .proj 
     {
-        width:90%;
+        width:88%;
         flex:none;
         
     }
