@@ -2,6 +2,11 @@
 <html>
     
 <head>
+  <script>
+    if (localStorage.getItem('darkMode') === 'enabled') {
+      document.documentElement?.classList.add('darkmode');
+    }
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sophia Duan</title>
@@ -25,7 +30,7 @@
 <body>
     <section>
     <div class="top">
-        <a class="link" href="/index.html"><-- back</a>
+      <a class="link" href="../index.html"><-- back</a>
       <div class="socials">
         <a href="https://github.com/sophiayduan" target="_blank">
           <p class="tooltip">github</p>
@@ -100,7 +105,7 @@
         </div>
     </section>
     <footer>
-        <p>Copyright Sophia Duan 2025</p>
+        <p> © Copyright Sophia Duan 2025</p>
         <p>This website is <a href="https://github.com/sophiayduan/The-Site" target="_blank" class="link">open source!</a></p>
     </footer>
 </body>

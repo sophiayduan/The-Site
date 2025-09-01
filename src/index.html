@@ -2,6 +2,11 @@
 <html>
     
 <head>
+  <script>
+  if (localStorage.getItem('darkMode') === 'enabled') {
+    document.documentElement?.classList.add('darkmode');
+  }
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sophia Duan</title>
@@ -21,8 +26,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_box_outline_blank" />
+
 </head>
 <body>
+  
   <section>
     <div class="top">
       <p>Hey&nbspthere!&nbspI'm </p>
@@ -135,7 +142,7 @@
       </div>
     </div>
     <span class="top" style="background-color:#f0f0f0;padding-top:4px;">
-      <p>sophiaduan.dev/endev</p>
+      <p>sophiaduan.dev/projects/endev</p>
       <div class ="links">
         <button style="width:50px;" onclick="document.getElementById('endev').style.display='none'">OK</button>
         </div>
@@ -181,7 +188,7 @@
       </div>
     </div>
     <span class="top" style="background-color:#f0f0f0;padding-top:4px;">
-      <p>sophiaduan.dev/jpeg</p>
+      <p>sophiaduan.dev/projects/jpeg</p>
       <div class ="links">
           <button style="width:50px;" onclick="document.getElementById('jpeg').style.display='none'">OK</button>
         </div>
@@ -214,7 +221,7 @@
         </div>
     </div>
     <span class="top" style="background-color:#f0f0f0;padding-top:4px;">
-      <p>sophiaduan.dev/pnp</p>
+      <p>sophiaduan.dev/projects/pnp</p>
       <div class ="links">
           <button style="width:50px;" onclick="document.getElementById('pnp').style.display='none'"">OK</button>
         </div>
@@ -228,5 +235,7 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 </html>
-<script src="darkmode.js"></script>
+
 <script src="script.js"></script>
+<script src="darkmode.js"></script>
+
